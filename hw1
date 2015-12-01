@@ -1,0 +1,55 @@
+f = "First"
+l = "Last"
+
+2. times do
+  puts l + " "+ f
+end
+
+2. times do 
+  puts "#{l} #{f}"
+  end
+  
+  name_1 = "Megan Smith"
+  name_2 = "Todd Park"
+  initials = name_2[0] + name_2[5]
+  puts initials
+  
+  a = 12
+  b = 65
+  c = 31
+  d = 98
+  
+  sum = a + b + c + d
+  average = sum/ 4.0
+  puts average
+  
+  equation = a + b * c /d 
+  puts equation
+  
+  equation2 = (a + b) * c /d 
+  puts equation2
+  
+  equation3 = (a + b) * (c /d)
+  puts equation3
+  
+  a = "Ezra"
+  b = "Ada"
+  c = "Yukihiro"
+  d = "Grace"
+  
+  sum_names = a.length + b.length + c.length + d.length
+  puts sum_names
+  
+  average_names = sum_names/ 4
+  puts average_names
+  
+  age = 4
+  age2 = age - 1
+  greeting = "Happy"
+  greeting2 = "happy "
+  greeting3 = "birthday"
+  puts "#{greeting} " + "#{greeting2 * age2}" + "#{greeting3}!"
+  
+  word = "kalamazoo"
+   silly_compression = word[0]+ word.length.to_s + word[-1]
+  puts silly_compression
